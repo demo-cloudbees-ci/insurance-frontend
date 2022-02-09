@@ -6,10 +6,11 @@ pipeline {
       steps {
         container('nodejs') {
           echo 'Hello World!'   
-          sh 'java -version'
+          sh 'node --version'
         }
       }
     }
   }
 }
+
 
